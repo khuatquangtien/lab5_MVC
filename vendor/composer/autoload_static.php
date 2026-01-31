@@ -21,6 +21,7 @@ class ComposerStaticInit2f35842ed9a8daf7dda4f1fa1665a0d8
         ),
         'A' =>
         array (
+            'App\\' => 4,
             'Admin\\Lab5Mvc\\' => 14,
         ),
     );
@@ -33,6 +34,10 @@ class ComposerStaticInit2f35842ed9a8daf7dda4f1fa1665a0d8
         'Faker\\' =>
         array (
             0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
+        ),
+        'App\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/App',
         ),
         'Admin\\Lab5Mvc\\' =>
         array (

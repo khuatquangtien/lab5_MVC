@@ -1,7 +1,7 @@
 <?php
-// File: database/migrations/create_products_table.php
+namespace App\Database\Migrations;
 
-class CreateProductsTable {
+class CreateProductTable {
     public function up($db) {
         // Câu lệnh SQL để tạo bảng
         $sql = "CREATE TABLE IF NOT EXISTS products (

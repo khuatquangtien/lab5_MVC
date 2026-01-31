@@ -2,6 +2,7 @@
     "name": "admin/lab5_mvc",
     "autoload": {
         "psr-4": {
+            "App\\": "App/",
             "Admin\\Lab5Mvc\\": "src/"
         }
     },

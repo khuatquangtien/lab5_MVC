@@ -1,15 +1,13 @@
 <?php
-// File: database/seeders/ProductSeeder.php
-
-require_once 'vendor/autoload.php';
+namespace App\Database\Seeders;
 
 class ProductSeeder {
     public function run($db) {
         // Khởi tạo Faker để tạo dữ liệu ảo bằng tiếng Việt
-        $faker = Faker\Factory::create('vi_VN');
+        $faker = \Faker\Factory::create('vi_VN');
 
         for ($i = 0; $i < 10; $i++) {
-            $name = $faker->productName; // Hoặc $faker->sentence(3)
+            $name = $faker->word . ' ' . $faker->word; // Tên sản phẩm
             $price = $faker->numberBetween(100000, 1000000);
 
             $sql = "INSERT INTO products (name, price) VALUES (:name, :price)";
