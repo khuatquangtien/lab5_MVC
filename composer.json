@@ -1,0 +1,17 @@
+{
+    "name": "admin/lab5_mvc",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Lab5Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "khuatquangtien",
+            "email": "khuattien05@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.24"
+    }
+}
